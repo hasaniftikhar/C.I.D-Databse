@@ -1,0 +1,2 @@
+rootProject.name='CID Database'
+include ':app'
