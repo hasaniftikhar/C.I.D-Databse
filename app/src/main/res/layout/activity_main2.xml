@@ -4,6 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B5D3E7"
     tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/Successful"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-black"
+        android:text="You Logged in Successfully."
+        android:textColor="#006400"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cr_rec_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:background="#B5D3E7"
+        android:text="1. CRIME RECORD"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/let_cas_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. LATEST CASE"
+        app:layout_constraintTop_toBottomOf="@id/cr_rec_btn"
+        app:layout_constraintLeft_toLeftOf="@id/cr_rec_btn"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="@id/cr_rec_btn"
+        android:background="#B5D3E7"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
