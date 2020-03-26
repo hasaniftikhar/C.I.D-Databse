@@ -10,6 +10,7 @@ import android.widget.Button;
 public class Main2Activity extends AppCompatActivity {
 
     Button cr_rec_btn;
+    Button let_cas_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +18,9 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
         cr_rec_btn= findViewById(R.id.cr_rec_btn);
+        let_cas_btn= findViewById(R.id.let_cas_btn);
+
+
         cr_rec_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,6 +28,15 @@ public class Main2Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        let_cas_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent= new Intent(Main2Activity.this, Main4Activity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }
