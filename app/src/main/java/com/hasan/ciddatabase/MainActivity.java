@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    final String result = "a";
+    final String result = "cid123";
     EditText password;
     EditText username;
     Button login;

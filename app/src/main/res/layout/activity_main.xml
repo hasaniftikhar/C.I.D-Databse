@@ -93,7 +93,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginBottom="16dp"
-        android:src="@drawable/cid_logo"
+        android:src="@drawable/cid_icon"
         app:layout_constraintBottom_toTopOf="@id/bottom_line"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
